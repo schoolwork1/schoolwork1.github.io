@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine on
+rewritecond %{http_host} ^http://schoolwork.x10.mx [nc]
+rewriterule ^(.*)$ http://schoolwork.x10.mx/Ethans%20Website/twocolumn1.html/$1 [r=301,nc]
